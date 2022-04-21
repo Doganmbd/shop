@@ -1,11 +1,11 @@
 import React from 'react'
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from './navbar/Navbar';
-import Home from './navbar/Home';
-import About from './navbar/About';
+import Navbar from '../navbar/Navbar';
+import Home from '../navbar/Home';
+import About from '../navbar/About';
 
-const Router = () => {
+const MyRouter = () => {
   return (
     <div>
          <BrowserRouter>
@@ -20,4 +20,4 @@ const Router = () => {
   )
 }
 
-export default Router
+export default MyRouter
